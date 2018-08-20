@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a5b1fa2-3f8f-40ec-ba64-b65238768147" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/darkflow/ClearBlade-Python-SDK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/ClearBlade-Python-SDK/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/README 2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/cfg/yolo_bkup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/cfg/yolov3-tiny.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/ClearBladeCore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/Code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/Collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/Developers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/Devices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/Messaging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/Permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/Users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/cbLogs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/clearblade/restcall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/darkflow/Untitled-1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/darkflow/cython_utils/cy_yolo2_findboxes.cpython-35m-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/darkflow/cython_utils/cy_yolo2_findboxes.cpython-36m-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/darkflow/cython_utils/cy_yolo_findboxes.cpython-35m-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/darkflow/cython_utils/cy_yolo_findboxes.cpython-36m-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/darkflow/cython_utils/nms.cpython-35m-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/darkflow/cython_utils/nms.cpython-36m-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/dist/clearblade-2.2.3-py3.6.egg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/experiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/imgcsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/imgcsv.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/sample_dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/setup_bkup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/setup_cfg_bkup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/try_img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkflow/try_img_platform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkflow" beforeDir="false" afterPath="$PROJECT_DIR$/darkflow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkflow/cfg/yolo.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/darkflow/cfg/yolo.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkflow/darkflow/net/yolo/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkflow/darkflow/net/yolo/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkflow/darkflow/utils/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkflow/darkflow/utils/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkflow/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkflow/setup.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/yolo_test_MQTT$try_one.coverage" NAME="try_one Coverage Results" MODIFIED="1534281351639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/experiments" />
+    <SUITE FILE_PATH="coverage/yolo_test_MQTT$try_img.coverage" NAME="try_img Coverage Results" MODIFIED="1533751944624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/darkflow" />
+    <SUITE FILE_PATH="coverage/yolo_test_MQTT$try_img_platform.coverage" NAME="try_img_platform Coverage Results" MODIFIED="1533837667512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/darkflow" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-494894386">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2751" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2751" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cfg" value="1" />
+          <entry key="npy" value="2" />
+          <entry key="py" value="42" />
+          <entry key="sh" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="4" />
+          <entry key="Ini" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="42" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/darkflow/try_img.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="84" column="41" lean-forward="true" selection-start-line="7" selection-end-line="84" selection-end-column="41" />
+              <folding>
+                <element signature="e#15#25#0" expanded="true" />
+                <marker date="1533840818000" expanded="true" signature="1248:1253" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/experiments/try_one.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/experiments/example.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/experiments/venv.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/experiments/stop.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/PycharmProjects/experiments/start.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/experiments/whythisworks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/darkflow/clearblade/restcall.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///anaconda3/envs/NAME/lib/python3.6/site-packages/clearblade-2.2.3-py3.6.egg!/clearblade/Messaging.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="133" column="25" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/darkflow/clearblade/Messaging.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>payload</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/darkflow" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/darkflow/clearblade/Users.py" />
+        <option value="$PROJECT_DIR$/darkflow/experiment.py" />
+        <option value="$PROJECT_DIR$/darkflow/try_img_platform.py" />
+        <option value="$PROJECT_DIR$/darkflow/try_img.py" />
+        <option value="$USER_HOME$/PycharmProjects/experiments/whythisworks.py" />
+        <option value="$USER_HOME$/PycharmProjects/experiments/try_one.py" />
+        <option value="$USER_HOME$/PycharmProjects/experiments/venv.sh" />
+        <option value="$USER_HOME$/PycharmProjects/experiments/stop.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yolo_test_MQTT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolo_test_MQTT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolo_test_MQTT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="init&#9;FILE&#9;file:///Users/Codeo/yolo_test_MQTT/darkflow/clearblade/__init__.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/darkflow/ClearBlade-Python-SDK" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.try_one">
+    <configuration name="try_img" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yolo_test_MQTT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/darkflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/darkflow/try_img.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="try_img_platform" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yolo_test_MQTT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/darkflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/darkflow/try_img_platform.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="try_one" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="experiments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PycharmProjects/experiments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PycharmProjects/experiments/try_one.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.try_img" />
+      <item itemvalue="Python.try_img_platform" />
+      <item itemvalue="Python.try_one" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.try_one" />
+        <item itemvalue="Python.try_img_platform" />
+        <item itemvalue="Python.try_img" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a5b1fa2-3f8f-40ec-ba64-b65238768147" name="Default Changelist" comment="" />
+      <created>1533657243933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533657243933</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37534246" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" x="0" y="0" width="270" height="600" id="Documentation" order="4" side_tool="true" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/darkflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/clearblade/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/ClearBlade-Python-SDK/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/ClearBlade-Python-SDK/clearblade/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/ClearBlade-Python-SDK/clearblade/Users.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/ClearBlade-Python-SDK/clearblade/Devices.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/ClearBlade-Python-SDK/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/setup 2.py" />
+    <entry file="file://$PROJECT_DIR$/darkflow/build/lib/clearblade/ClearBladeCore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/ClearBlade-Python-SDK/clearblade/Collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/ClearBlade-Python-SDK/clearblade/ClearBladeCore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/985398502/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33904" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/imgcsv.npy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12708">
+          <caret line="135" column="173" lean-forward="true" selection-start-line="135" selection-start-column="173" selection-end-line="135" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/985398502/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="4631" column="8" selection-start-line="4631" selection-start-column="8" selection-end-line="4631" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/NAME/lib/python3.6/site-packages/numpy/lib/user_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="237" column="8" selection-start-line="237" selection-start-column="8" selection-end-line="237" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/NAME/lib/python3.6/site-packages/pandas/core/computation/pytables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="579" column="8" selection-start-line="579" selection-start-column="8" selection-end-line="579" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/try_img_platform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/NAME/lib/python3.6/site-packages/paho_mqtt-1.3.1-py3.6.egg/paho/mqtt/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15975">
+          <caret line="1070" column="51" selection-start-line="1070" selection-start-column="51" selection-end-line="1070" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///anaconda3/envs/NAME/lib/python3.6/site-packages/clearblade-2.2.3-py3.6.egg!/clearblade/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///anaconda3/envs/NAME/lib/python3.6/site-packages/clearblade-2.2.3-py3.6.egg!/clearblade/ClearBladeCore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/clearblade/ClearBladeCore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/NAME/lib/python3.6/site-packages/requests-2.19.1-py3.6.egg/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/clearblade/restcall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/clearblade/Users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/clearblade/Messaging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/experiments/whythisworks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///anaconda3/envs/NAME/lib/python3.6/site-packages/clearblade-2.2.3-py3.6.egg!/clearblade/Messaging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="133" column="25" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkflow/try_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="84" column="41" lean-forward="true" selection-start-line="7" selection-end-line="84" selection-end-column="41" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+            <marker date="1533840818000" expanded="true" signature="1248:1253" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/experiments/try_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/experiments/example.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/experiments/venv.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/experiments/stop.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/experiments/start.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
